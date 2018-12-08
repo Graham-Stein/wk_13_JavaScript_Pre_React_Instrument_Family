@@ -28,4 +28,4 @@ class SelectView  {
   };
 
 };
-module.exports = SelectView;
+export default SelectView;
