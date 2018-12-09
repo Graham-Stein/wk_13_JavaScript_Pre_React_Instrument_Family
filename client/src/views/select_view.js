@@ -19,9 +19,9 @@ class SelectView  {
   };
 
   populate(instrumentFamilyData) {
-    instrumentFamilyData.forEach((familiy, index) => {
+    instrumentFamilyData.forEach((family, index) => {
       const option = document.createElement('option');
-      option.textContent = familiy.name;
+      option.textContent = family.name;
       option.value = index;
       this.element.appendChild(option);
     });
